@@ -56,17 +56,28 @@ a{
     position: relative;
     left: 679.5px;
     top: 135px;
-    width: 561px;
+    width: 565px;
     height: 44px;
     border-radius: 50px;
     box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
     background: #fff;
 }
+ .center{
+     width: 561px;
+     height: 44px;
+ }
+
+.Magnifier-img{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
 
 input{
     height: 44px;
-    width: 511px;
-    padding-right: 44px;
+    width: 465px;
     outline: none;
     border: none;
     color: #fff;
@@ -74,7 +85,20 @@ input{
     font-size: 16px;
 }
 
-.Magnifier-img{
-    width: 24px;
-    height: 24px;
+.center ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+.center ul li button{
+    border: 0;
+    width: 15px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.center ul li button img{
+    width: 15px;
+    height: 20px;
 }
